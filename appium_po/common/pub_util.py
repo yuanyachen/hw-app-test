@@ -31,8 +31,8 @@ class HanweiUtil(object):
         :return: conn
         '''
         return pymysql.connect(
-            host='rm-uf6o788t14snm5j623o.mysql.rds.aliyuncs.com',
-            port=1666,
+            #host='rm-uf6o788t14snm5j623o.mysql.rds.aliyuncs.com',
+            #port=1666,
             # host='106.14.173.153',
             # port=7001,
             user='byyroot',
