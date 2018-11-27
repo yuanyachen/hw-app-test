@@ -1,0 +1,2 @@
+2018-11-02 Friday 14:49:56  pub_util.py : INFO  sql : select is_direct from customerprofile where cpId = "3026470" ---> result : (0,)
+2018-11-02 Friday 14:49:56  pub_util.py : INFO  sql : select hds_type, hds_subtype, hds_sptype, hds_star,vivilife_type, vivilife_sptype, vivilife_subtype, is_lightening from customercareerlevel where cpId ="3026470" ---> result : ('DS', 'SR', 'SO', '', '', '', '', 0)

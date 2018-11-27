@@ -1,0 +1,12 @@
+2018-11-05 Monday 17:57:15  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/6dfc0ef4-1c4b-4b1f-a4b1-5226f5396fd6/timeouts {"implicit": 10000, "sessionId": "6dfc0ef4-1c4b-4b1f-a4b1-5226f5396fd6"}
+2018-11-05 Monday 17:57:15  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-11-05 Monday 17:57:15  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/6dfc0ef4-1c4b-4b1f-a4b1-5226f5396fd6/timeouts HTTP/1.1" 200 14
+2018-11-05 Monday 17:57:15  remote_connection.py : DEBUG  Finished Request
+2018-11-05 Monday 17:57:15  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/6dfc0ef4-1c4b-4b1f-a4b1-5226f5396fd6/element {"using": "id", "value": "com.hanweiyx.hanwei:id/ll_main_tab_mine", "sessionId": "6dfc0ef4-1c4b-4b1f-a4b1-5226f5396fd6"}
+2018-11-05 Monday 17:57:15  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-11-05 Monday 17:57:25  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/6dfc0ef4-1c4b-4b1f-a4b1-5226f5396fd6/element HTTP/1.1" 404 1126
+2018-11-05 Monday 17:57:25  remote_connection.py : DEBUG  Finished Request
+2018-11-05 Monday 17:57:25  remote_connection.py : DEBUG  GET http://127.0.0.1:4723/wd/hub/session/6dfc0ef4-1c4b-4b1f-a4b1-5226f5396fd6/screenshot {"sessionId": "6dfc0ef4-1c4b-4b1f-a4b1-5226f5396fd6"}
+2018-11-05 Monday 17:57:25  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-11-05 Monday 17:57:26  connectionpool.py : DEBUG  http://127.0.0.1:4723 "GET /wd/hub/session/6dfc0ef4-1c4b-4b1f-a4b1-5226f5396fd6/screenshot HTTP/1.1" 200 122812
+2018-11-05 Monday 17:57:26  remote_connection.py : DEBUG  Finished Request

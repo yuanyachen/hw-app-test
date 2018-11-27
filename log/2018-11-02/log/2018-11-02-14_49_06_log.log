@@ -1,0 +1,1 @@
+2018-11-02 Friday 14:49:06  pub_util.py : INFO  sql : select is_direct from customerprofile where cpId = "3026470" ---> result : (0,)

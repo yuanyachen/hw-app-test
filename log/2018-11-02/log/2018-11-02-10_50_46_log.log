@@ -1,0 +1,5 @@
+2018-11-02 Friday 10:50:46  pub_util.py : DEBUG  logger debug message
+2018-11-02 Friday 10:50:46  pub_util.py : INFO  logger info message
+2018-11-02 Friday 10:50:46  pub_util.py : WARNING  logger warning message
+2018-11-02 Friday 10:50:46  pub_util.py : ERROR  logger error message
+2018-11-02 Friday 10:50:46  pub_util.py : CRITICAL  logger critical message

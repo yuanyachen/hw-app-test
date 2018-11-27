@@ -1,0 +1,28 @@
+2018-11-08 Thursday 11:30:28  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/1d01d5b1-da3a-4772-9f38-9b9100a2e221/timeouts {"implicit": 10000, "sessionId": "1d01d5b1-da3a-4772-9f38-9b9100a2e221"}
+2018-11-08 Thursday 11:30:28  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-11-08 Thursday 11:30:28  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/1d01d5b1-da3a-4772-9f38-9b9100a2e221/timeouts HTTP/1.1" 200 14
+2018-11-08 Thursday 11:30:28  remote_connection.py : DEBUG  Finished Request
+2018-11-08 Thursday 11:30:28  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/1d01d5b1-da3a-4772-9f38-9b9100a2e221/element {"using": "id", "value": "com.hanweiyx.hanwei:id/ll_main_tab_mine", "sessionId": "1d01d5b1-da3a-4772-9f38-9b9100a2e221"}
+2018-11-08 Thursday 11:30:28  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-11-08 Thursday 11:30:30  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/1d01d5b1-da3a-4772-9f38-9b9100a2e221/element HTTP/1.1" 200 53
+2018-11-08 Thursday 11:30:30  remote_connection.py : DEBUG  Finished Request
+2018-11-08 Thursday 11:30:30  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/1d01d5b1-da3a-4772-9f38-9b9100a2e221/element/1/click {"id": "1", "sessionId": "1d01d5b1-da3a-4772-9f38-9b9100a2e221"}
+2018-11-08 Thursday 11:30:30  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-11-08 Thursday 11:30:32  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/1d01d5b1-da3a-4772-9f38-9b9100a2e221/element/1/click HTTP/1.1" 200 14
+2018-11-08 Thursday 11:30:32  remote_connection.py : DEBUG  Finished Request
+2018-11-08 Thursday 11:30:32  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/1d01d5b1-da3a-4772-9f38-9b9100a2e221/element {"using": "id", "value": "com.hanweiyx.hanwei:id/tv_member_id", "sessionId": "1d01d5b1-da3a-4772-9f38-9b9100a2e221"}
+2018-11-08 Thursday 11:30:32  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-11-08 Thursday 11:30:32  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/1d01d5b1-da3a-4772-9f38-9b9100a2e221/element HTTP/1.1" 200 53
+2018-11-08 Thursday 11:30:32  remote_connection.py : DEBUG  Finished Request
+2018-11-08 Thursday 11:30:32  remote_connection.py : DEBUG  GET http://127.0.0.1:4723/wd/hub/session/1d01d5b1-da3a-4772-9f38-9b9100a2e221/element/2/text {"id": "2", "sessionId": "1d01d5b1-da3a-4772-9f38-9b9100a2e221"}
+2018-11-08 Thursday 11:30:32  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-11-08 Thursday 11:30:33  connectionpool.py : DEBUG  http://127.0.0.1:4723 "GET /wd/hub/session/1d01d5b1-da3a-4772-9f38-9b9100a2e221/element/2/text HTTP/1.1" 200 31
+2018-11-08 Thursday 11:30:33  remote_connection.py : DEBUG  Finished Request
+2018-11-08 Thursday 11:30:33  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/1d01d5b1-da3a-4772-9f38-9b9100a2e221/element {"using": "id", "value": "com.hanweiyx.hanwei:id/tv_mine_name", "sessionId": "1d01d5b1-da3a-4772-9f38-9b9100a2e221"}
+2018-11-08 Thursday 11:30:33  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-11-08 Thursday 11:30:33  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/1d01d5b1-da3a-4772-9f38-9b9100a2e221/element HTTP/1.1" 200 53
+2018-11-08 Thursday 11:30:33  remote_connection.py : DEBUG  Finished Request
+2018-11-08 Thursday 11:30:33  remote_connection.py : DEBUG  GET http://127.0.0.1:4723/wd/hub/session/1d01d5b1-da3a-4772-9f38-9b9100a2e221/element/3/text {"id": "3", "sessionId": "1d01d5b1-da3a-4772-9f38-9b9100a2e221"}
+2018-11-08 Thursday 11:30:33  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-11-08 Thursday 11:30:33  connectionpool.py : DEBUG  http://127.0.0.1:4723 "GET /wd/hub/session/1d01d5b1-da3a-4772-9f38-9b9100a2e221/element/3/text HTTP/1.1" 200 23
+2018-11-08 Thursday 11:30:33  remote_connection.py : DEBUG  Finished Request
