@@ -1,0 +1,86 @@
+2018-12-06 Thursday 16:43:38  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"platformName": "Android", "appium:platformVersion": "5.1", "appium:deviceName": "HUAWEI TAG-AL00", "appium:appPackage": "com.hanweiyx.hanwei", "appium:appActivity": ".activity.SplashActivity", "appium:unicodeKeyboard": true, "appium:resetKeyboard": true, "appium:noReset": true}]}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.1", "deviceName": "HUAWEI TAG-AL00", "appPackage": "com.hanweiyx.hanwei", "appActivity": ".activity.SplashActivity", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true}}
+2018-12-06 Thursday 16:43:38  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-06 Thursday 16:43:47  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 840
+2018-12-06 Thursday 16:43:47  remote_connection.py : DEBUG  Finished Request
+2018-12-06 Thursday 16:43:47  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/c975f2e5-a4ec-4809-9d19-01392c5dfac9/timeouts {"implicit": 10000, "sessionId": "c975f2e5-a4ec-4809-9d19-01392c5dfac9"}
+2018-12-06 Thursday 16:43:47  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-06 Thursday 16:43:47  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/c975f2e5-a4ec-4809-9d19-01392c5dfac9/timeouts HTTP/1.1" 200 14
+2018-12-06 Thursday 16:43:47  remote_connection.py : DEBUG  Finished Request
+2018-12-06 Thursday 16:43:47  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/c975f2e5-a4ec-4809-9d19-01392c5dfac9/element {"using": "id", "value": "com.hanweiyx.hanwei:id/ll_main_tab_mine", "sessionId": "c975f2e5-a4ec-4809-9d19-01392c5dfac9"}
+2018-12-06 Thursday 16:43:47  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-06 Thursday 16:43:51  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/c975f2e5-a4ec-4809-9d19-01392c5dfac9/element HTTP/1.1" 200 53
+2018-12-06 Thursday 16:43:51  remote_connection.py : DEBUG  Finished Request
+2018-12-06 Thursday 16:43:51  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/c975f2e5-a4ec-4809-9d19-01392c5dfac9/element/1/click {"id": "1", "sessionId": "c975f2e5-a4ec-4809-9d19-01392c5dfac9"}
+2018-12-06 Thursday 16:43:51  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-06 Thursday 16:43:54  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/c975f2e5-a4ec-4809-9d19-01392c5dfac9/element/1/click HTTP/1.1" 200 14
+2018-12-06 Thursday 16:43:54  remote_connection.py : DEBUG  Finished Request
+2018-12-06 Thursday 16:43:54  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/c975f2e5-a4ec-4809-9d19-01392c5dfac9/element {"using": "id", "value": "com.hanweiyx.hanwei:id/tv_member_id", "sessionId": "c975f2e5-a4ec-4809-9d19-01392c5dfac9"}
+2018-12-06 Thursday 16:43:54  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-06 Thursday 16:43:54  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/c975f2e5-a4ec-4809-9d19-01392c5dfac9/element HTTP/1.1" 200 53
+2018-12-06 Thursday 16:43:54  remote_connection.py : DEBUG  Finished Request
+2018-12-06 Thursday 16:43:54  remote_connection.py : DEBUG  GET http://127.0.0.1:4723/wd/hub/session/c975f2e5-a4ec-4809-9d19-01392c5dfac9/element/2/text {"id": "2", "sessionId": "c975f2e5-a4ec-4809-9d19-01392c5dfac9"}
+2018-12-06 Thursday 16:43:54  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-06 Thursday 16:43:54  connectionpool.py : DEBUG  http://127.0.0.1:4723 "GET /wd/hub/session/c975f2e5-a4ec-4809-9d19-01392c5dfac9/element/2/text HTTP/1.1" 200 31
+2018-12-06 Thursday 16:43:54  remote_connection.py : DEBUG  Finished Request
+2018-12-06 Thursday 16:43:54  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/c975f2e5-a4ec-4809-9d19-01392c5dfac9/element {"using": "id", "value": "com.hanweiyx.hanwei:id/tv_mine_name", "sessionId": "c975f2e5-a4ec-4809-9d19-01392c5dfac9"}
+2018-12-06 Thursday 16:43:54  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-06 Thursday 16:43:54  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/c975f2e5-a4ec-4809-9d19-01392c5dfac9/element HTTP/1.1" 200 53
+2018-12-06 Thursday 16:43:54  remote_connection.py : DEBUG  Finished Request
+2018-12-06 Thursday 16:43:54  remote_connection.py : DEBUG  GET http://127.0.0.1:4723/wd/hub/session/c975f2e5-a4ec-4809-9d19-01392c5dfac9/element/3/text {"id": "3", "sessionId": "c975f2e5-a4ec-4809-9d19-01392c5dfac9"}
+2018-12-06 Thursday 16:43:54  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-06 Thursday 16:43:54  connectionpool.py : DEBUG  http://127.0.0.1:4723 "GET /wd/hub/session/c975f2e5-a4ec-4809-9d19-01392c5dfac9/element/3/text HTTP/1.1" 200 15
+2018-12-06 Thursday 16:43:54  remote_connection.py : DEBUG  Finished Request
+2018-12-06 Thursday 16:43:54  pub_util.py : INFO  sql : select hds_type, hds_subtype, hds_sptype, hds_star,vivilife_type, vivilife_sptype, vivilife_subtype, is_lightening from customercareerlevel where cpId ="3146796"; ---> result : (None, None, None, None, None, None, None, 0)
+2018-12-06 Thursday 16:43:54  pub_util.py : INFO  sql : select is_direct from customerprofile where cpId = "3146796"; ---> result : (1,)
+2018-12-06 Thursday 16:43:54  dash_page.py : INFO  cpid=3146796 name=hds customercareerlevel=None
+2018-12-06 Thursday 16:43:54  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/c975f2e5-a4ec-4809-9d19-01392c5dfac9/appium/device/app_installed {"bundleId": "com.hanweiyx.hanwei", "sessionId": "c975f2e5-a4ec-4809-9d19-01392c5dfac9"}
+2018-12-06 Thursday 16:43:54  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-06 Thursday 16:43:54  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/c975f2e5-a4ec-4809-9d19-01392c5dfac9/appium/device/app_installed HTTP/1.1" 200 14
+2018-12-06 Thursday 16:43:54  remote_connection.py : DEBUG  Finished Request
+2018-12-06 Thursday 16:43:54  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/c975f2e5-a4ec-4809-9d19-01392c5dfac9/element {"using": "id", "value": "com.hanweiyx.hanwei:id/ll_main_tab_mine", "sessionId": "c975f2e5-a4ec-4809-9d19-01392c5dfac9"}
+2018-12-06 Thursday 16:43:54  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-06 Thursday 16:43:54  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/c975f2e5-a4ec-4809-9d19-01392c5dfac9/element HTTP/1.1" 200 53
+2018-12-06 Thursday 16:43:54  remote_connection.py : DEBUG  Finished Request
+2018-12-06 Thursday 16:43:54  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/c975f2e5-a4ec-4809-9d19-01392c5dfac9/element/4/click {"id": "4", "sessionId": "c975f2e5-a4ec-4809-9d19-01392c5dfac9"}
+2018-12-06 Thursday 16:43:54  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-06 Thursday 16:43:55  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/c975f2e5-a4ec-4809-9d19-01392c5dfac9/element/4/click HTTP/1.1" 200 14
+2018-12-06 Thursday 16:43:55  remote_connection.py : DEBUG  Finished Request
+2018-12-06 Thursday 16:43:55  pub_util.py : INFO  sql : select count(*) from xquark_order where archive = 0 and status in ("SUBMITTED") and buyer_id in (select id from xquark_user where cpId = "3146796") ---> result : (0,)
+2018-12-06 Thursday 16:43:55  pub_util.py : INFO  sql : select count(*) from xquark_order where archive = 0 and status in ("PAID","DELIVERY") and buyer_id in (select id from xquark_user where cpId = "3146796") ---> result : (17,)
+2018-12-06 Thursday 16:43:55  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/c975f2e5-a4ec-4809-9d19-01392c5dfac9/element {"using": "id", "value": "com.hanweiyx.hanwei:id/tv_shipments_number", "sessionId": "c975f2e5-a4ec-4809-9d19-01392c5dfac9"}
+2018-12-06 Thursday 16:43:55  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-06 Thursday 16:43:56  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/c975f2e5-a4ec-4809-9d19-01392c5dfac9/element HTTP/1.1" 200 53
+2018-12-06 Thursday 16:43:56  remote_connection.py : DEBUG  Finished Request
+2018-12-06 Thursday 16:43:56  remote_connection.py : DEBUG  GET http://127.0.0.1:4723/wd/hub/session/c975f2e5-a4ec-4809-9d19-01392c5dfac9/element/5/text {"id": "5", "sessionId": "c975f2e5-a4ec-4809-9d19-01392c5dfac9"}
+2018-12-06 Thursday 16:43:56  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-06 Thursday 16:43:56  connectionpool.py : DEBUG  http://127.0.0.1:4723 "GET /wd/hub/session/c975f2e5-a4ec-4809-9d19-01392c5dfac9/element/5/text HTTP/1.1" 200 14
+2018-12-06 Thursday 16:43:56  remote_connection.py : DEBUG  Finished Request
+2018-12-06 Thursday 16:43:56  pub_util.py : INFO  sql : select count(*) from xquark_order where archive = 0 and status in ("SHIPPED") and buyer_id in (select id from xquark_user where cpId = "3146796") ---> result : (0,)
+2018-12-06 Thursday 16:43:56  pub_util.py : INFO  sql : select count(*) from xquark_order where archive = 0 and status in ("SUCCESS","COMMENT") and buyer_id in (select id from xquark_user where cpId = "3146796") ---> result : (0,)
+2018-12-06 Thursday 16:43:56  pub_util.py : INFO  sql : select count(*) from xquark_order where archive = 0 and status in ("REFUNDING") and buyer_id in (select id from xquark_user where cpId = "3146796") ---> result : (0,)
+2018-12-06 Thursday 16:43:56  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/c975f2e5-a4ec-4809-9d19-01392c5dfac9/element {"using": "id", "value": "com.hanweiyx.hanwei:id/ll_main_tab_home", "sessionId": "c975f2e5-a4ec-4809-9d19-01392c5dfac9"}
+2018-12-06 Thursday 16:43:56  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-06 Thursday 16:43:56  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/c975f2e5-a4ec-4809-9d19-01392c5dfac9/element HTTP/1.1" 200 53
+2018-12-06 Thursday 16:43:56  remote_connection.py : DEBUG  Finished Request
+2018-12-06 Thursday 16:43:56  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/c975f2e5-a4ec-4809-9d19-01392c5dfac9/element/6/click {"id": "6", "sessionId": "c975f2e5-a4ec-4809-9d19-01392c5dfac9"}
+2018-12-06 Thursday 16:43:56  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-06 Thursday 16:43:57  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/c975f2e5-a4ec-4809-9d19-01392c5dfac9/element/6/click HTTP/1.1" 200 14
+2018-12-06 Thursday 16:43:57  remote_connection.py : DEBUG  Finished Request
+2018-12-06 Thursday 16:43:57  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/c975f2e5-a4ec-4809-9d19-01392c5dfac9/ime/activate {"engine": "io.appium.android.ime/.UnicodeIME", "sessionId": "c975f2e5-a4ec-4809-9d19-01392c5dfac9"}
+2018-12-06 Thursday 16:43:57  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-06 Thursday 16:43:59  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/c975f2e5-a4ec-4809-9d19-01392c5dfac9/ime/activate HTTP/1.1" 200 14
+2018-12-06 Thursday 16:43:59  remote_connection.py : DEBUG  Finished Request
+2018-12-06 Thursday 16:43:59  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/c975f2e5-a4ec-4809-9d19-01392c5dfac9/element {"using": "id", "value": "com.hanweiyx.hanwei:id/et_search", "sessionId": "c975f2e5-a4ec-4809-9d19-01392c5dfac9"}
+2018-12-06 Thursday 16:43:59  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-06 Thursday 16:44:00  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/c975f2e5-a4ec-4809-9d19-01392c5dfac9/element HTTP/1.1" 200 53
+2018-12-06 Thursday 16:44:00  remote_connection.py : DEBUG  Finished Request
+2018-12-06 Thursday 16:44:00  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/c975f2e5-a4ec-4809-9d19-01392c5dfac9/element/7/clear {"id": "7", "sessionId": "c975f2e5-a4ec-4809-9d19-01392c5dfac9"}
+2018-12-06 Thursday 16:44:00  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-06 Thursday 16:44:01  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/c975f2e5-a4ec-4809-9d19-01392c5dfac9/element/7/clear HTTP/1.1" 200 14
+2018-12-06 Thursday 16:44:01  remote_connection.py : DEBUG  Finished Request
+2018-12-06 Thursday 16:44:01  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/c975f2e5-a4ec-4809-9d19-01392c5dfac9/element/7/value {"text": "\u4f0a\u592b", "value": ["\u4f0a", "\u592b"], "id": "7", "sessionId": "c975f2e5-a4ec-4809-9d19-01392c5dfac9"}
+2018-12-06 Thursday 16:44:01  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-06 Thursday 16:44:05  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/c975f2e5-a4ec-4809-9d19-01392c5dfac9/ime/activate {"engine": "com.sohu.inputmethod.sogou/.SogouIME", "sessionId": "c975f2e5-a4ec-4809-9d19-01392c5dfac9"}
+2018-12-06 Thursday 16:44:05  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-06 Thursday 16:44:09  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/c975f2e5-a4ec-4809-9d19-01392c5dfac9/ime/activate HTTP/1.1" 200 14
+2018-12-06 Thursday 16:44:09  remote_connection.py : DEBUG  Finished Request

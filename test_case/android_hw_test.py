@@ -17,7 +17,11 @@ if du.driver.is_app_installed('com.hanweiyx.hanwei'):
         
             新增/修改/删除收货地址
         '''
-        # du.address_test()
+        #获取我的服务按钮列表
+        servier_dict = du.get_serviers()
+
+
+        du.address_test(servier_dict.get('address_ele'))
 
         '''
             1.进入帮助中心页面
@@ -26,25 +30,25 @@ if du.driver.is_app_installed('com.hanweiyx.hanwei'):
             4.查看联系我们
             5.查看关于我们
         '''
-        # du.help_test()
+        du.help_test(servier_dict.get('help_ele'))
 
         '''
             1.获取数据库德分积分数据
             2.德分积分查看
         '''
-        # du.integral_test()
+        du.integral_test()
 
         '''
             1.统计订单
             2.查看全部订单
         '''
-        # du.count_order()
-        # du.all_order_test()
+        du.count_order()
+        du.all_order_test()
 
         '''
             未搜索到商品
         '''
-        # du.seek_test('home', '伊夫敢死队风格')
+        du.seek_test('home', '伊夫敢死队风格')
 
         '''
             统计订单
@@ -55,13 +59,13 @@ if du.driver.is_app_installed('com.hanweiyx.hanwei'):
             搜索/立即购买/提交订单
             下单成功
         # '''
-        # seek_ret1 = du.seek_test('home', '伊夫')
-        # if seek_ret1['status']:
-        #     do3 = du.direct_order()
-        #     do3.__next__()
-        #     du.place_an_order(order_source='is_classification')
-        #     order_behind3 = du.count_order()
-        #     du.logging_out.info('下单前%s  下单后%s' % (order_front3, order_behind3))
+        seek_ret1 = du.seek_test('home', '伊夫')
+        if seek_ret1['status']:
+            do3 = du.direct_order()
+            do3.__next__()
+            du.place_an_order(order_source='is_classification')
+            order_behind3 = du.count_order()
+            du.hwu.logging_out.info('下单前%s  下单后%s' % (order_front3, order_behind3))
 
         '''
             搜索/立即购买/提交订单
@@ -69,32 +73,26 @@ if du.driver.is_app_installed('com.hanweiyx.hanwei'):
             seek_ret搜索结果
             direct_order是生成器，执行完下单后在返回
         '''
-        # order_front = du.count_order()
-        # seek_ret = du.seek_test('home', '伊夫')
-        # if seek_ret['status']:
-        #     do = du.direct_order()
-        #     do.__next__()
-        #     du.place_an_order(order_source='is_classification')
-        #     try:
-        #         do.__next__()
-        #     except StopIteration:
-        #         pass
-        #     order_behind = du.count_order()
-        #
-        #     du.logging_out.info('下单前%s  下单后%s' % (order_front, order_behind))
+        order_front = du.count_order()
+        seek_ret = du.seek_test('home', '伊夫')
+        if seek_ret['status']:
+            do = du.direct_order()
+            do.__next__()
+            du.place_an_order(order_source='is_classification')
+            try:
+                do.__next__()
+            except StopIteration:
+                pass
+            order_behind = du.count_order()
+
+            du.hwu.logging_out.info('下单前%s  下单后%s' % (order_front, order_behind))
         # 下单前[[1, '1'], [27, '25'], [1, '1'], [4, 0], [1, '1']]  下单后[[2, '2'], [27, '25'], [1, '1'], [4, 0], [1, '1']]
 
         '''
             分类页面/立即购买/提交订单
             下单成功
         '''
-        # rder_front1 = du.count_order()
-        # do1 = du.direct_order(True)
-        # do1.__next__()
-        # du.place_an_order(order_source='is_classification')
-        # order_behind1 = du.count_order()
-        #
-        # du.logging_out.info('下单前%s  下单后%s' % (rder_front1, order_behind1))
+        rder_front1 = du.count_order()
 
         '''
             分类页面/立即购买/提交订单
@@ -110,13 +108,15 @@ if du.driver.is_app_installed('com.hanweiyx.hanwei'):
             pass
         order_behind2 = du.count_order()
 
-        du.logging_out.info('下单前%s  下单后%s' % (rder_front2, order_behind2))
+        du.hwu.logging_out.info('下单前%s  下单后%s' % (rder_front2, order_behind2))
+
+
         # '''
         #     收藏
         # '''
         seek_ret2 = du.seek_test('category', '伊夫')
         if seek_ret2['status']:
-            du.collect_test()
+            du.collect_test(servier_dict.get('collection_ele'))
 
         '''
             搜索商品/加入购物车/编辑
@@ -158,11 +158,11 @@ if du.driver.is_app_installed('com.hanweiyx.hanwei'):
         # COMMENT(true), // 待评价
         # CLOSED(false); // 交易关闭
     except TimeoutException as e:
-        du.logging_out.error('等待超时!')
+        du.hwu.logging_out.error('等待超时!')
     except Exception as e:
-        du.logging_out.exception(e)
+        du.hwu.logging_out.exception(e)
     finally:
         du.driver.activate_ime_engine('com.sohu.inputmethod.sogou/.SogouIME')
-        du.mysql_util.conn_close()
-        du.logging_out.info('end')
+        du.hwu.conn_close()
+        du.hwu.logging_out.info('end')
         # driver.close_app()

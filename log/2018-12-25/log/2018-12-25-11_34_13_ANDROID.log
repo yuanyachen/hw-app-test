@@ -1,0 +1,14 @@
+2018-12-25 Tuesday 11:34:13  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"platformName": "Android", "appium:platformVersion": "5.1", "appium:deviceName": "HUAWEI TAG-AL00", "appium:appPackage": "com.hanweiyx.hanwei", "appium:appActivity": ".activity.SplashActivity", "appium:unicodeKeyboard": true, "appium:resetKeyboard": true, "appium:noReset": true}]}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.1", "deviceName": "HUAWEI TAG-AL00", "appPackage": "com.hanweiyx.hanwei", "appActivity": ".activity.SplashActivity", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true}}
+2018-12-25 Tuesday 11:34:13  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-25 Tuesday 11:34:24  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 840
+2018-12-25 Tuesday 11:34:24  remote_connection.py : DEBUG  Finished Request
+2018-12-25 Tuesday 11:34:24  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/1f57e12d-d837-469c-a3e2-aad2c2411520/timeouts {"implicit": 10000, "sessionId": "1f57e12d-d837-469c-a3e2-aad2c2411520"}
+2018-12-25 Tuesday 11:34:24  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-25 Tuesday 11:34:24  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/1f57e12d-d837-469c-a3e2-aad2c2411520/timeouts HTTP/1.1" 200 14
+2018-12-25 Tuesday 11:34:24  remote_connection.py : DEBUG  Finished Request
+2018-12-25 Tuesday 11:34:24  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/1f57e12d-d837-469c-a3e2-aad2c2411520/element {"using": "id", "value": "com.hanweiyx.hanwei:id/ll_main_tab_mine", "sessionId": "1f57e12d-d837-469c-a3e2-aad2c2411520"}
+2018-12-25 Tuesday 11:34:24  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-25 Tuesday 11:34:28  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/1f57e12d-d837-469c-a3e2-aad2c2411520/element HTTP/1.1" 200 53
+2018-12-25 Tuesday 11:34:28  remote_connection.py : DEBUG  Finished Request
+2018-12-25 Tuesday 11:34:28  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/1f57e12d-d837-469c-a3e2-aad2c2411520/element/1/click {"id": "1", "sessionId": "1f57e12d-d837-469c-a3e2-aad2c2411520"}
+2018-12-25 Tuesday 11:34:28  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723

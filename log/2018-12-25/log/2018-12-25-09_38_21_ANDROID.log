@@ -1,0 +1,68 @@
+2018-12-25 Tuesday 09:38:21  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"platformName": "Android", "appium:platformVersion": "5.1", "appium:deviceName": "HUAWEI TAG-AL00", "appium:appPackage": "com.hanweiyx.hanwei", "appium:appActivity": ".activity.SplashActivity", "appium:unicodeKeyboard": true, "appium:resetKeyboard": true, "appium:noReset": true}]}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.1", "deviceName": "HUAWEI TAG-AL00", "appPackage": "com.hanweiyx.hanwei", "appActivity": ".activity.SplashActivity", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true}}
+2018-12-25 Tuesday 09:38:21  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-25 Tuesday 09:38:30  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 840
+2018-12-25 Tuesday 09:38:30  remote_connection.py : DEBUG  Finished Request
+2018-12-25 Tuesday 09:38:30  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/7fae45b0-20a9-4000-a6c1-6cdd4039a590/timeouts {"implicit": 10000, "sessionId": "7fae45b0-20a9-4000-a6c1-6cdd4039a590"}
+2018-12-25 Tuesday 09:38:30  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-25 Tuesday 09:38:30  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/7fae45b0-20a9-4000-a6c1-6cdd4039a590/timeouts HTTP/1.1" 200 14
+2018-12-25 Tuesday 09:38:30  remote_connection.py : DEBUG  Finished Request
+2018-12-25 Tuesday 09:38:30  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/7fae45b0-20a9-4000-a6c1-6cdd4039a590/element {"using": "id", "value": "com.hanweiyx.hanwei:id/ll_main_tab_mine", "sessionId": "7fae45b0-20a9-4000-a6c1-6cdd4039a590"}
+2018-12-25 Tuesday 09:38:30  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-25 Tuesday 09:38:33  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/7fae45b0-20a9-4000-a6c1-6cdd4039a590/element HTTP/1.1" 200 53
+2018-12-25 Tuesday 09:38:33  remote_connection.py : DEBUG  Finished Request
+2018-12-25 Tuesday 09:38:33  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/7fae45b0-20a9-4000-a6c1-6cdd4039a590/element/1/click {"id": "1", "sessionId": "7fae45b0-20a9-4000-a6c1-6cdd4039a590"}
+2018-12-25 Tuesday 09:38:33  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-25 Tuesday 09:38:36  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/7fae45b0-20a9-4000-a6c1-6cdd4039a590/element/1/click HTTP/1.1" 200 14
+2018-12-25 Tuesday 09:38:36  remote_connection.py : DEBUG  Finished Request
+2018-12-25 Tuesday 09:38:36  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/7fae45b0-20a9-4000-a6c1-6cdd4039a590/element {"using": "id", "value": "com.hanweiyx.hanwei:id/tv_member_id", "sessionId": "7fae45b0-20a9-4000-a6c1-6cdd4039a590"}
+2018-12-25 Tuesday 09:38:36  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-25 Tuesday 09:38:36  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/7fae45b0-20a9-4000-a6c1-6cdd4039a590/element HTTP/1.1" 200 53
+2018-12-25 Tuesday 09:38:36  remote_connection.py : DEBUG  Finished Request
+2018-12-25 Tuesday 09:38:36  remote_connection.py : DEBUG  GET http://127.0.0.1:4723/wd/hub/session/7fae45b0-20a9-4000-a6c1-6cdd4039a590/element/2/text {"id": "2", "sessionId": "7fae45b0-20a9-4000-a6c1-6cdd4039a590"}
+2018-12-25 Tuesday 09:38:36  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-25 Tuesday 09:38:36  connectionpool.py : DEBUG  http://127.0.0.1:4723 "GET /wd/hub/session/7fae45b0-20a9-4000-a6c1-6cdd4039a590/element/2/text HTTP/1.1" 200 22
+2018-12-25 Tuesday 09:38:36  remote_connection.py : DEBUG  Finished Request
+2018-12-25 Tuesday 09:38:36  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/7fae45b0-20a9-4000-a6c1-6cdd4039a590/element {"using": "id", "value": "com.hanweiyx.hanwei:id/tv_mine_name", "sessionId": "7fae45b0-20a9-4000-a6c1-6cdd4039a590"}
+2018-12-25 Tuesday 09:38:36  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-25 Tuesday 09:38:36  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/7fae45b0-20a9-4000-a6c1-6cdd4039a590/element HTTP/1.1" 200 53
+2018-12-25 Tuesday 09:38:36  remote_connection.py : DEBUG  Finished Request
+2018-12-25 Tuesday 09:38:36  remote_connection.py : DEBUG  GET http://127.0.0.1:4723/wd/hub/session/7fae45b0-20a9-4000-a6c1-6cdd4039a590/element/3/text {"id": "3", "sessionId": "7fae45b0-20a9-4000-a6c1-6cdd4039a590"}
+2018-12-25 Tuesday 09:38:36  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-25 Tuesday 09:38:36  connectionpool.py : DEBUG  http://127.0.0.1:4723 "GET /wd/hub/session/7fae45b0-20a9-4000-a6c1-6cdd4039a590/element/3/text HTTP/1.1" 200 18
+2018-12-25 Tuesday 09:38:36  remote_connection.py : DEBUG  Finished Request
+2018-12-25 Tuesday 09:38:36  pub_util.py : INFO  sql : select hds_type, hds_subtype, hds_sptype, hds_star,vivilife_type, vivilife_sptype, vivilife_subtype, is_lightening from customercareerlevel where cpId ="3163378"; ---> result : None
+2018-12-25 Tuesday 09:38:36  pub_util.py : INFO  sql : select is_direct from customerprofile where cpId = "3163378"; ---> result : None
+2018-12-25 Tuesday 09:38:36  dash_page.py : INFO  cpid=3163378 name=幼态 customercareerlevel=white
+2018-12-25 Tuesday 09:38:36  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/7fae45b0-20a9-4000-a6c1-6cdd4039a590/appium/device/app_installed {"bundleId": "com.hanweiyx.hanwei", "sessionId": "7fae45b0-20a9-4000-a6c1-6cdd4039a590"}
+2018-12-25 Tuesday 09:38:36  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-25 Tuesday 09:38:36  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/7fae45b0-20a9-4000-a6c1-6cdd4039a590/appium/device/app_installed HTTP/1.1" 200 14
+2018-12-25 Tuesday 09:38:36  remote_connection.py : DEBUG  Finished Request
+2018-12-25 Tuesday 09:38:36  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/7fae45b0-20a9-4000-a6c1-6cdd4039a590/element {"using": "accessibility id", "value": "\u6211\u7684\u5730\u5740", "sessionId": "7fae45b0-20a9-4000-a6c1-6cdd4039a590"}
+2018-12-25 Tuesday 09:38:36  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-25 Tuesday 09:38:47  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/7fae45b0-20a9-4000-a6c1-6cdd4039a590/element HTTP/1.1" 404 463
+2018-12-25 Tuesday 09:38:47  remote_connection.py : DEBUG  Finished Request
+2018-12-25 Tuesday 09:38:47  android_hw_test.py : ERROR  Message: An element could not be located on the page using the given search parameters.
+Traceback (most recent call last):
+  File "/Users/huangjianbo/py_workspace/appium_po/test_case/android_hw_test.py", line 20, in <module>
+    du.address_test()
+  File "/Users/huangjianbo/py_workspace/appium_po/po/dash_page.py", line 327, in address_test
+    self.driver.find_element_by_accessibility_id('我的地址').click()
+  File "/usr/local/lib/python3.7/site-packages/appium/webdriver/webdriver.py", line 406, in find_element_by_accessibility_id
+    return self.find_element(by=By.ACCESSIBILITY_ID, value=accessibility_id)
+  File "/usr/local/lib/python3.7/site-packages/appium/webdriver/webdriver.py", line 222, in find_element
+    'value': value})['value']
+  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python3.7/site-packages/appium/webdriver/errorhandler.py", line 29, in check_response
+    raise wde
+  File "/usr/local/lib/python3.7/site-packages/appium/webdriver/errorhandler.py", line 24, in check_response
+    super(MobileErrorHandler, self).check_response(response)
+  File "/usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+2018-12-25 Tuesday 09:38:47  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/7fae45b0-20a9-4000-a6c1-6cdd4039a590/ime/activate {"engine": "com.sohu.inputmethod.sogou/.SogouIME", "sessionId": "7fae45b0-20a9-4000-a6c1-6cdd4039a590"}
+2018-12-25 Tuesday 09:38:47  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-25 Tuesday 09:38:50  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/7fae45b0-20a9-4000-a6c1-6cdd4039a590/ime/activate HTTP/1.1" 200 14
+2018-12-25 Tuesday 09:38:50  remote_connection.py : DEBUG  Finished Request
+2018-12-25 Tuesday 09:38:50  android_hw_test.py : INFO  end

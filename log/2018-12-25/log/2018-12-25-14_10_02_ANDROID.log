@@ -1,0 +1,16 @@
+2018-12-25 Tuesday 14:10:02  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"platformName": "Android", "appium:platformVersion": "5.1", "appium:deviceName": "HUAWEI TAG-AL00", "appium:appPackage": "com.hanweiyx.hanwei", "appium:appActivity": ".activity.SplashActivity", "appium:unicodeKeyboard": true, "appium:resetKeyboard": true, "appium:noReset": true}]}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "5.1", "deviceName": "HUAWEI TAG-AL00", "appPackage": "com.hanweiyx.hanwei", "appActivity": ".activity.SplashActivity", "unicodeKeyboard": true, "resetKeyboard": true, "noReset": true}}
+2018-12-25 Tuesday 14:10:02  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-25 Tuesday 14:10:11  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 840
+2018-12-25 Tuesday 14:10:11  remote_connection.py : DEBUG  Finished Request
+2018-12-25 Tuesday 14:10:11  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/1b7257bf-1b2e-4361-8845-939b76c73819/timeouts {"implicit": 10000, "sessionId": "1b7257bf-1b2e-4361-8845-939b76c73819"}
+2018-12-25 Tuesday 14:10:11  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-25 Tuesday 14:10:11  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/1b7257bf-1b2e-4361-8845-939b76c73819/timeouts HTTP/1.1" 200 14
+2018-12-25 Tuesday 14:10:11  remote_connection.py : DEBUG  Finished Request
+2018-12-25 Tuesday 14:10:11  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/1b7257bf-1b2e-4361-8845-939b76c73819/element {"using": "id", "value": "com.hanweiyx.hanwei:id/ll_main_tab_mine", "sessionId": "1b7257bf-1b2e-4361-8845-939b76c73819"}
+2018-12-25 Tuesday 14:10:11  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-25 Tuesday 14:10:22  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/1b7257bf-1b2e-4361-8845-939b76c73819/element HTTP/1.1" 404 463
+2018-12-25 Tuesday 14:10:22  remote_connection.py : DEBUG  Finished Request
+2018-12-25 Tuesday 14:10:22  remote_connection.py : DEBUG  GET http://127.0.0.1:4723/wd/hub/session/1b7257bf-1b2e-4361-8845-939b76c73819/screenshot {"sessionId": "1b7257bf-1b2e-4361-8845-939b76c73819"}
+2018-12-25 Tuesday 14:10:22  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-25 Tuesday 14:10:26  connectionpool.py : DEBUG  http://127.0.0.1:4723 "GET /wd/hub/session/1b7257bf-1b2e-4361-8845-939b76c73819/screenshot HTTP/1.1" 200 889052
+2018-12-25 Tuesday 14:10:26  remote_connection.py : DEBUG  Finished Request

@@ -1,0 +1,30 @@
+2018-11-30 Friday 16:28:04  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/69364f62-8793-4372-afc7-dd4e758f29c7/timeouts {"implicit": 10000, "sessionId": "69364f62-8793-4372-afc7-dd4e758f29c7"}
+2018-11-30 Friday 16:28:04  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-11-30 Friday 16:28:04  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/69364f62-8793-4372-afc7-dd4e758f29c7/timeouts HTTP/1.1" 200 14
+2018-11-30 Friday 16:28:04  remote_connection.py : DEBUG  Finished Request
+2018-11-30 Friday 16:28:04  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/69364f62-8793-4372-afc7-dd4e758f29c7/element {"using": "id", "value": "com.hanweiyx.hanwei:id/ll_main_tab_mine", "sessionId": "69364f62-8793-4372-afc7-dd4e758f29c7"}
+2018-11-30 Friday 16:28:04  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-11-30 Friday 16:28:07  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/69364f62-8793-4372-afc7-dd4e758f29c7/element HTTP/1.1" 200 53
+2018-11-30 Friday 16:28:07  remote_connection.py : DEBUG  Finished Request
+2018-11-30 Friday 16:28:07  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/69364f62-8793-4372-afc7-dd4e758f29c7/element/1/click {"id": "1", "sessionId": "69364f62-8793-4372-afc7-dd4e758f29c7"}
+2018-11-30 Friday 16:28:07  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-11-30 Friday 16:28:08  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/69364f62-8793-4372-afc7-dd4e758f29c7/element/1/click HTTP/1.1" 200 14
+2018-11-30 Friday 16:28:08  remote_connection.py : DEBUG  Finished Request
+2018-11-30 Friday 16:28:08  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/69364f62-8793-4372-afc7-dd4e758f29c7/element {"using": "id", "value": "com.hanweiyx.hanwei:id/tv_member_id", "sessionId": "69364f62-8793-4372-afc7-dd4e758f29c7"}
+2018-11-30 Friday 16:28:08  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-11-30 Friday 16:28:09  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/69364f62-8793-4372-afc7-dd4e758f29c7/element HTTP/1.1" 200 53
+2018-11-30 Friday 16:28:09  remote_connection.py : DEBUG  Finished Request
+2018-11-30 Friday 16:28:09  remote_connection.py : DEBUG  GET http://127.0.0.1:4723/wd/hub/session/69364f62-8793-4372-afc7-dd4e758f29c7/element/2/text {"id": "2", "sessionId": "69364f62-8793-4372-afc7-dd4e758f29c7"}
+2018-11-30 Friday 16:28:09  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-11-30 Friday 16:28:10  connectionpool.py : DEBUG  http://127.0.0.1:4723 "GET /wd/hub/session/69364f62-8793-4372-afc7-dd4e758f29c7/element/2/text HTTP/1.1" 200 31
+2018-11-30 Friday 16:28:10  remote_connection.py : DEBUG  Finished Request
+2018-11-30 Friday 16:28:10  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/69364f62-8793-4372-afc7-dd4e758f29c7/element {"using": "id", "value": "com.hanweiyx.hanwei:id/tv_mine_name", "sessionId": "69364f62-8793-4372-afc7-dd4e758f29c7"}
+2018-11-30 Friday 16:28:10  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-11-30 Friday 16:28:10  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/69364f62-8793-4372-afc7-dd4e758f29c7/element HTTP/1.1" 200 53
+2018-11-30 Friday 16:28:10  remote_connection.py : DEBUG  Finished Request
+2018-11-30 Friday 16:28:10  remote_connection.py : DEBUG  GET http://127.0.0.1:4723/wd/hub/session/69364f62-8793-4372-afc7-dd4e758f29c7/element/3/text {"id": "3", "sessionId": "69364f62-8793-4372-afc7-dd4e758f29c7"}
+2018-11-30 Friday 16:28:10  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-11-30 Friday 16:28:10  connectionpool.py : DEBUG  http://127.0.0.1:4723 "GET /wd/hub/session/69364f62-8793-4372-afc7-dd4e758f29c7/element/3/text HTTP/1.1" 200 15
+2018-11-30 Friday 16:28:10  remote_connection.py : DEBUG  Finished Request
+2018-11-30 Friday 16:28:11  pub_util.py : INFO  sql : select hds_type, hds_subtype, hds_sptype, hds_star,vivilife_type, vivilife_sptype, vivilife_subtype, is_lightening from customercareerlevel where cpId ="3146796"; ---> result : ('', '', '', '', '', '', '', 0)
+2018-11-30 Friday 16:28:11  pub_util.py : INFO  sql : select is_direct from customerprofile where cpId = "3146796"; ---> result : (0,)

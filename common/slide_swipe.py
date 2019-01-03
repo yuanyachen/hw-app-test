@@ -14,6 +14,14 @@ def swipe_up(driver, t, min=0.25, max=0.95):
     driver.swipe(x1, y1, x1, y2, t)
 
 
+def ios_swipe_up(driver, t, mix=0.25, mxa=0.95):
+    '''ios屏幕向上滑动'''
+    l = get_size(driver)
+    fromX = int(l[0] * 0.5)
+    fromY = int(l[1] * max)
+    toY = int(l[1] * mix)
+    driver.execute_script("mobile:dragFromToForDuration", {"duration": 0.5, "element": None, "fromX": fromX, "fromY": fromY, "toX": fromX, "toY": toY})
+
 def swipe_down(driver, t, min=0.25, max=0.95):
     '''屏幕向下滑动'''
     l = get_size(driver)

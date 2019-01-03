@@ -1,0 +1,79 @@
+2018-12-07 Friday 10:33:53  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"platformName": "iOS", "appium:platformVersion": "12.1", "appium:deviceName": "iphone 5s", "appium:udid": "994359ed0027816a7c265006209365ea78dc15d1", "appium:bundleId": "com.hanweiyx.hanweishopping", "appium:newCommandTimeout": 60, "appium:automationName": "appium", "appium:noReset": true, "appium:xcodeOrgId": "<Team ID>", "appium:xcodeSigningId": "iPhone Developer"}]}, "desiredCapabilities": {"platformName": "iOS", "platformVersion": "12.1", "deviceName": "iphone 5s", "udid": "994359ed0027816a7c265006209365ea78dc15d1", "bundleId": "com.hanweiyx.hanweishopping", "newCommandTimeout": 60, "automationName": "appium", "noReset": true, "xcodeOrgId": "<Team ID>", "xcodeSigningId": "iPhone Developer"}}
+2018-12-07 Friday 10:33:53  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-07 Friday 10:34:02  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 562
+2018-12-07 Friday 10:34:02  remote_connection.py : DEBUG  Finished Request
+2018-12-07 Friday 10:34:02  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/4d43acb5-6e12-4911-8027-d011ea8f18df/timeouts {"implicit": 10000, "sessionId": "4d43acb5-6e12-4911-8027-d011ea8f18df"}
+2018-12-07 Friday 10:34:02  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-07 Friday 10:34:02  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/4d43acb5-6e12-4911-8027-d011ea8f18df/timeouts HTTP/1.1" 200 14
+2018-12-07 Friday 10:34:02  remote_connection.py : DEBUG  Finished Request
+2018-12-07 Friday 10:34:03  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/4d43acb5-6e12-4911-8027-d011ea8f18df/element {"using": "accessibility id", "value": "\u6211\u7684", "sessionId": "4d43acb5-6e12-4911-8027-d011ea8f18df"}
+2018-12-07 Friday 10:34:03  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-07 Friday 10:34:05  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/4d43acb5-6e12-4911-8027-d011ea8f18df/element HTTP/1.1" 200 88
+2018-12-07 Friday 10:34:05  remote_connection.py : DEBUG  Finished Request
+2018-12-07 Friday 10:34:05  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/4d43acb5-6e12-4911-8027-d011ea8f18df/element/BA618F3E-DFB2-489B-9997-2411DE2D4D35/click {"id": "BA618F3E-DFB2-489B-9997-2411DE2D4D35", "sessionId": "4d43acb5-6e12-4911-8027-d011ea8f18df"}
+2018-12-07 Friday 10:34:05  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-07 Friday 10:34:07  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/4d43acb5-6e12-4911-8027-d011ea8f18df/element/BA618F3E-DFB2-489B-9997-2411DE2D4D35/click HTTP/1.1" 200 118
+2018-12-07 Friday 10:34:07  remote_connection.py : DEBUG  Finished Request
+2018-12-07 Friday 10:34:07  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/4d43acb5-6e12-4911-8027-d011ea8f18df/element {"using": "-ios predicate string", "value": "value BEGINSWITH \"\u4f1a\u5458ID\uff1a\"", "sessionId": "4d43acb5-6e12-4911-8027-d011ea8f18df"}
+2018-12-07 Friday 10:34:07  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-07 Friday 10:34:08  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/4d43acb5-6e12-4911-8027-d011ea8f18df/element HTTP/1.1" 200 88
+2018-12-07 Friday 10:34:08  remote_connection.py : DEBUG  Finished Request
+2018-12-07 Friday 10:34:08  remote_connection.py : DEBUG  GET http://127.0.0.1:4723/wd/hub/session/4d43acb5-6e12-4911-8027-d011ea8f18df/element/8F20223F-91EB-494B-A77E-4BEA7763695D/text {"id": "8F20223F-91EB-494B-A77E-4BEA7763695D", "sessionId": "4d43acb5-6e12-4911-8027-d011ea8f18df"}
+2018-12-07 Friday 10:34:08  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-07 Friday 10:34:08  connectionpool.py : DEBUG  http://127.0.0.1:4723 "GET /wd/hub/session/4d43acb5-6e12-4911-8027-d011ea8f18df/element/8F20223F-91EB-494B-A77E-4BEA7763695D/text HTTP/1.1" 200 95
+2018-12-07 Friday 10:34:08  remote_connection.py : DEBUG  Finished Request
+2018-12-07 Friday 10:34:08  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/4d43acb5-6e12-4911-8027-d011ea8f18df/element {"using": "xpath", "value": "//XCUIElementTypeStaticText[2]", "sessionId": "4d43acb5-6e12-4911-8027-d011ea8f18df"}
+2018-12-07 Friday 10:34:08  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-07 Friday 10:34:10  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/4d43acb5-6e12-4911-8027-d011ea8f18df/element HTTP/1.1" 200 88
+2018-12-07 Friday 10:34:10  remote_connection.py : DEBUG  Finished Request
+2018-12-07 Friday 10:34:10  remote_connection.py : DEBUG  GET http://127.0.0.1:4723/wd/hub/session/4d43acb5-6e12-4911-8027-d011ea8f18df/element/FC560548-2C70-4732-80EF-E75774C951E8/text {"id": "FC560548-2C70-4732-80EF-E75774C951E8", "sessionId": "4d43acb5-6e12-4911-8027-d011ea8f18df"}
+2018-12-07 Friday 10:34:10  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-07 Friday 10:34:11  connectionpool.py : DEBUG  http://127.0.0.1:4723 "GET /wd/hub/session/4d43acb5-6e12-4911-8027-d011ea8f18df/element/FC560548-2C70-4732-80EF-E75774C951E8/text HTTP/1.1" 200 89
+2018-12-07 Friday 10:34:11  remote_connection.py : DEBUG  Finished Request
+2018-12-07 Friday 10:34:11  pub_util.py : INFO  sql : select hds_type, hds_subtype, hds_sptype, hds_star,vivilife_type, vivilife_sptype, vivilife_subtype, is_lightening from customercareerlevel where cpId ="3146748"; ---> result : (None, None, None, None, None, None, None, 0)
+2018-12-07 Friday 10:34:11  pub_util.py : INFO  sql : select is_direct from customerprofile where cpId = "3146748"; ---> result : None
+2018-12-07 Friday 10:34:11  dash_page.py : INFO  cpid=3146748 name=客服助手001 customercareerlevel=white
+2018-12-07 Friday 10:34:11  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/4d43acb5-6e12-4911-8027-d011ea8f18df/element {"using": "accessibility id", "value": "\u5730\u5740\u7ba1\u7406", "sessionId": "4d43acb5-6e12-4911-8027-d011ea8f18df"}
+2018-12-07 Friday 10:34:11  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-07 Friday 10:34:11  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/4d43acb5-6e12-4911-8027-d011ea8f18df/element HTTP/1.1" 200 88
+2018-12-07 Friday 10:34:11  remote_connection.py : DEBUG  Finished Request
+2018-12-07 Friday 10:34:11  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/4d43acb5-6e12-4911-8027-d011ea8f18df/element/2CE773A1-A2D5-4583-82FD-A8A470674459/click {"id": "2CE773A1-A2D5-4583-82FD-A8A470674459", "sessionId": "4d43acb5-6e12-4911-8027-d011ea8f18df"}
+2018-12-07 Friday 10:34:11  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-07 Friday 10:34:14  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/4d43acb5-6e12-4911-8027-d011ea8f18df/element/2CE773A1-A2D5-4583-82FD-A8A470674459/click HTTP/1.1" 200 118
+2018-12-07 Friday 10:34:14  remote_connection.py : DEBUG  Finished Request
+2018-12-07 Friday 10:34:14  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/4d43acb5-6e12-4911-8027-d011ea8f18df/element {"using": "accessibility id", "value": "\u6dfb\u52a0\u65b0\u5730\u5740", "sessionId": "4d43acb5-6e12-4911-8027-d011ea8f18df"}
+2018-12-07 Friday 10:34:14  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-07 Friday 10:34:15  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/4d43acb5-6e12-4911-8027-d011ea8f18df/element HTTP/1.1" 200 88
+2018-12-07 Friday 10:34:15  remote_connection.py : DEBUG  Finished Request
+2018-12-07 Friday 10:34:15  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/4d43acb5-6e12-4911-8027-d011ea8f18df/element/24D5C237-B45C-4B87-A046-9F6ED371389F/click {"id": "24D5C237-B45C-4B87-A046-9F6ED371389F", "sessionId": "4d43acb5-6e12-4911-8027-d011ea8f18df"}
+2018-12-07 Friday 10:34:15  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-07 Friday 10:34:16  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/4d43acb5-6e12-4911-8027-d011ea8f18df/element/24D5C237-B45C-4B87-A046-9F6ED371389F/click HTTP/1.1" 200 118
+2018-12-07 Friday 10:34:16  remote_connection.py : DEBUG  Finished Request
+2018-12-07 Friday 10:34:16  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/4d43acb5-6e12-4911-8027-d011ea8f18df/element {"using": "accessibility id", "value": "\u8bf7\u8f93\u5165\u6536\u8d27\u4eba\u59d3\u540d", "sessionId": "4d43acb5-6e12-4911-8027-d011ea8f18df"}
+2018-12-07 Friday 10:34:16  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-07 Friday 10:34:18  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/4d43acb5-6e12-4911-8027-d011ea8f18df/element HTTP/1.1" 200 88
+2018-12-07 Friday 10:34:18  remote_connection.py : DEBUG  Finished Request
+2018-12-07 Friday 10:34:18  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/4d43acb5-6e12-4911-8027-d011ea8f18df/elements {"using": "class name", "value": "XCUIElementTypeTextField", "sessionId": "4d43acb5-6e12-4911-8027-d011ea8f18df"}
+2018-12-07 Friday 10:34:18  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-07 Friday 10:34:18  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/4d43acb5-6e12-4911-8027-d011ea8f18df/elements HTTP/1.1" 200 169
+2018-12-07 Friday 10:34:18  remote_connection.py : DEBUG  Finished Request
+2018-12-07 Friday 10:34:18  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/4d43acb5-6e12-4911-8027-d011ea8f18df/element/0C641860-57BE-46B4-9124-27A5FB496C0A/clear {"id": "0C641860-57BE-46B4-9124-27A5FB496C0A", "sessionId": "4d43acb5-6e12-4911-8027-d011ea8f18df"}
+2018-12-07 Friday 10:34:18  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-07 Friday 10:34:22  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/4d43acb5-6e12-4911-8027-d011ea8f18df/element/0C641860-57BE-46B4-9124-27A5FB496C0A/clear HTTP/1.1" 200 14
+2018-12-07 Friday 10:34:22  remote_connection.py : DEBUG  Finished Request
+2018-12-07 Friday 10:34:22  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/4d43acb5-6e12-4911-8027-d011ea8f18df/element/0C641860-57BE-46B4-9124-27A5FB496C0A/value {"text": "\u5730\u5740", "value": ["\u5730", "\u5740"], "id": "0C641860-57BE-46B4-9124-27A5FB496C0A", "sessionId": "4d43acb5-6e12-4911-8027-d011ea8f18df"}
+2018-12-07 Friday 10:34:22  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-07 Friday 10:34:25  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/4d43acb5-6e12-4911-8027-d011ea8f18df/element/0C641860-57BE-46B4-9124-27A5FB496C0A/value HTTP/1.1" 200 14
+2018-12-07 Friday 10:34:25  remote_connection.py : DEBUG  Finished Request
+2018-12-07 Friday 10:34:25  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/4d43acb5-6e12-4911-8027-d011ea8f18df/element/35F7631D-7D9F-48F8-8D84-97F01B7160BE/clear {"id": "35F7631D-7D9F-48F8-8D84-97F01B7160BE", "sessionId": "4d43acb5-6e12-4911-8027-d011ea8f18df"}
+2018-12-07 Friday 10:34:25  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-07 Friday 10:34:30  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/4d43acb5-6e12-4911-8027-d011ea8f18df/element/35F7631D-7D9F-48F8-8D84-97F01B7160BE/clear HTTP/1.1" 200 14
+2018-12-07 Friday 10:34:30  remote_connection.py : DEBUG  Finished Request
+2018-12-07 Friday 10:34:30  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/4d43acb5-6e12-4911-8027-d011ea8f18df/element/35F7631D-7D9F-48F8-8D84-97F01B7160BE/value {"text": "13300000011", "value": ["1", "3", "3", "0", "0", "0", "0", "0", "0", "1", "1"], "id": "35F7631D-7D9F-48F8-8D84-97F01B7160BE", "sessionId": "4d43acb5-6e12-4911-8027-d011ea8f18df"}
+2018-12-07 Friday 10:34:30  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-07 Friday 10:34:32  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/4d43acb5-6e12-4911-8027-d011ea8f18df/element/35F7631D-7D9F-48F8-8D84-97F01B7160BE/value HTTP/1.1" 200 14
+2018-12-07 Friday 10:34:32  remote_connection.py : DEBUG  Finished Request
+2018-12-07 Friday 10:34:32  remote_connection.py : DEBUG  POST http://127.0.0.1:4723/wd/hub/session/4d43acb5-6e12-4911-8027-d011ea8f18df/elements {"using": "class name", "value": "XCUIElementTypeTextView", "sessionId": "4d43acb5-6e12-4911-8027-d011ea8f18df"}
+2018-12-07 Friday 10:34:32  connectionpool.py : DEBUG  Starting new HTTP connection (1): 127.0.0.1:4723
+2018-12-07 Friday 10:34:32  connectionpool.py : DEBUG  http://127.0.0.1:4723 "POST /wd/hub/session/4d43acb5-6e12-4911-8027-d011ea8f18df/elements HTTP/1.1" 200 90
+2018-12-07 Friday 10:34:32  remote_connection.py : DEBUG  Finished Request
